@@ -1,0 +1,16 @@
+{
+  "name": "skou-shop-main",
+  "version": "1.0.0",
+  "description": "dummy readme.md project 0  #end",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && npm run dev \" \"cd client && npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@admin-bro/express": "^3.1.0",
+    "admin-bro": "^4.0.1",
+    "concurrently": "^6.4.0"
+  }
+}
